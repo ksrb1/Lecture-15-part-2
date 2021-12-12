@@ -1,0 +1,15 @@
+int myCalculation(int num) {
+	num *= 2;
+	num += 8;
+	return num;
+}
+
+int main() {
+
+	int userNum;
+	cout << "Enter A Number: ";
+	cin >> userNum;
+	userNum =myCalculation(userNum);
+	cout << userNum << endl;
+       
+}
