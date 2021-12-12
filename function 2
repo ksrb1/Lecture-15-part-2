@@ -1,0 +1,19 @@
+double sumItems(double item1, double item2) {
+	double total = item1 + item2;
+	return total;
+}
+
+int main() {
+
+	double myMoney = 40.00;
+	double shoes = 25.99;
+	double tshirt = 11.50;
+
+	if (sumItems(shoes, tshirt) <= myMoney) {
+		cout << "You can afford these items" << endl;
+	}
+	else {
+		cout << "Better to just save up";
+	}
+       
+}
